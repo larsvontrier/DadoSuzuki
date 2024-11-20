@@ -1,6 +1,6 @@
 package com.pepinho.pmdm.dadosuzuki.model
 
-import kotlin.random.Random
+//import kotlin.random.Random
 
 open class Dado(private val numeroLados: Int) {
 

@@ -25,7 +25,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/vsuzuki1" />
+        tools:srcCompat="@drawable/dadosuzuki1" />
 
     <ImageView
         android:id="@+id/ivLogo"
@@ -36,6 +36,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/logo1" />
+        tools:srcCompat="@drawable/icona1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
