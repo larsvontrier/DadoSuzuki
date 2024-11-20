@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DadoSuzuki</string>
+    <string name="lanzarDado">Lanza el dado</string>
+</resources>
