@@ -16,6 +16,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.pepinho.pmdm.dadosuzuki.MainActivity.Companion.RITMOS
 import com.pepinho.pmdm.dadosuzuki.databinding.ActivityMainBinding
+
 import com.pepinho.pmdm.dadosuzuki.model.DadoSuzuki
 import com.pepinho.pmdm.dadosuzuki.model.Ritmo
 import kotlin.time.Duration
@@ -78,7 +79,7 @@ class MainActivity : AppCompatActivity() {
         // setContentView está sobrecargado. Con R.id.main se recoge el id del layout principal.
         // con binding.main se obtiene la vista principal.
         setContentView(binding.main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+        ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
